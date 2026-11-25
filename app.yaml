@@ -1,0 +1,17 @@
+kind: wasmer.io/App.v0
+# Ganti dengan username atau namespace Wasmer Anda
+owner: reanty
+name: perpustakaan-berkelana
+package: .
+
+debug: false
+
+env:
+  APP_ENV: "production"
+  APP_DEBUG: "false"
+
+scaling:
+  mode: single_concurrency
+
+cdn_cache:
+  enabled: false
